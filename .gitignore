@@ -73,3 +73,6 @@ typings/
 .serverless
 
 dist
+src/aws-exports.js
+
+**aws-exports.js
