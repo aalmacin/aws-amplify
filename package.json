@@ -1,16 +1,31 @@
 {
-  "name": "aws-amplify",
+  "name": "aws-amplify-sample",
   "version": "1.0.0",
-  "description": "AWS Amplify JavaScript Example",
-  "dependencies": {},
+  "description": "## Create project files ```sh mkdir src touch package.json index.html webpack.config.js src/app.js ```",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "aws-amplify": "^1.1.6"
+  },
   "devDependencies": {
-    "webpack": "^4.17.1",
-    "webpack-cli": "^3.1.0",
     "copy-webpack-plugin": "^4.5.2",
-    "webpack-dev-server": "^3.1.5"
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
   },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack && webpack-dev-server --mode development",
     "build": "webpack"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aalmacin/aws-amplify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aalmacin/aws-amplify/issues"
+  },
+  "homepage": "https://github.com/aalmacin/aws-amplify#readme"
 }
